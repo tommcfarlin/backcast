@@ -1,0 +1,7 @@
+{
+	"name": "tommcfarlin/backcast",
+	"description": "An application used to backup podcast subscriptions via Overcast XML exports.",
+	"require-dev": {
+		"phpunit/phpunit": "^8"
+	}
+}
