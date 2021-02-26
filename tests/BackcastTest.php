@@ -32,4 +32,30 @@ class BackcastTest extends TestCase
 		$backcast = new Backcast($path);
 		$this->assertTrue($backcast->hasValidFileType());
 	}
+
+	public function testContainsOpmlTag() : void
+	{
+		$path = __DIR__ . '/exports/overcast.opml';
+		$backcast = new Backcast($path);
+		$this->assertTrue($backcast->containsOpmlTag());
+	}
+
+	public function testIsValidOpml() : void
+	{
+		$path = __DIR__ . '/exports/overcast.opml';
+		$backcast = new Backcast($path);
+		$this->assertTrue($backcast->isValidOpml());
+	}
+
+	public function testHasProperOutlineTags() {
+		$path = __DIR__ . '/exports/overcast.opml';
+		$backcast = new Backcast($path);
+		$this->assertTrue($backcast->hasProperOutlineTags());
+	}
+
+	public function testHasProperXmlUrls() {
+		$path = __DIR__ . '/exports/overcast.opml';
+		$backcast = new Backcast($path);
+		$this->assertTrue($backcast->hasProperXmlUrls());
+	}
 }
