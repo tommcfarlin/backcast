@@ -2,82 +2,91 @@
 
 namespace Backcast;
 
-class Backcast {
+class Backcast
+{
 
-	private $xmlExportPath;
+    private $xmlExportPath;
 
-	public function __construct( string $xmlExportPath ) {
-		$this->xmlExportPath = $xmlExportPath;
-	}
+    public function __construct( string $xmlExportPath )
+    {
+        $this->xmlExportPath = $xmlExportPath;
+    }
 
-	public function exportFileExists() : bool {
-		return \file_exists( $this->xmlExportPath );
-	}
+    public function exportFileExists() : bool
+    {
+        return \file_exists($this->xmlExportPath);
+    }
 
-	public function hasValidFileType() : bool {
-		$fileParts = explode('.', $this->xmlExportPath);
+    public function hasValidFileType() : bool
+    {
+        $fileParts = explode('.', $this->xmlExportPath);
 
-		if (!isset($fileParts[1])) {
-			return false;
-		}
+        if (!isset($fileParts[1])) {
+            return false;
+        }
 
-		return (
-			'opml' === strtolower($fileParts[1])
-		);
-	}
+        return (
+        'opml' === strtolower($fileParts[1])
+        );
+    }
 
-	public function containsOpmlTag() : bool {
-		return (
-			false !==
-			strpos(
-				file_get_contents( $this->xmlExportPath ),
-				'<opml'
-			)
-			);
-	}
+    public function containsOpmlTag() : bool
+    {
+        return (
+        false !==
+        strpos(
+            file_get_contents($this->xmlExportPath),
+            '<opml'
+        )
+        );
+    }
 
-	public function isValidOpml() : bool {
-		libxml_use_internal_errors(true);
+    public function isValidOpml() : bool
+    {
+        libxml_use_internal_errors(true);
 
-		$domDoc = new \DOMDocument();
-		$domDoc->load($this->xmlExportPath);
+        $domDoc = new \DOMDocument();
+        $domDoc->load($this->xmlExportPath);
 
-		return 0 === count( libxml_get_errors() );
-	}
+        return 0 === count(libxml_get_errors());
+    }
 
-	public function hasProperOutlineTags() : bool {
-		$xmlDoc = $this->loadXmlExport();
+    public function hasProperOutlineTags() : bool
+    {
+        $xmlDoc = $this->loadXmlExport();
 
-		if ( 0 === count($xmlDoc->body->outline) ) {
-			return false;
-		}
+        if (0 === count($xmlDoc->body->outline) ) {
+            return false;
+        }
 
-		foreach ( $xmlDoc->body->outline as $node ) {
-			if ( ! isset( $node->outline['type'] ) || 'rss' !== strtolower( $node->outline['type'] ) ) {
-				return false;
-			}
-		}
+        foreach ( $xmlDoc->body->outline as $node ) {
+            if (! isset($node->outline['type']) || 'rss' !== strtolower($node->outline['type']) ) {
+                return false;
+            }
+        }
 
-		return true;
-	}
+        return true;
+    }
 
-	public function hasProperXmlUrls() : bool {
-		$xmlDoc = $this->loadXmlExport();
+    public function hasProperXmlUrls() : bool
+    {
+        $xmlDoc = $this->loadXmlExport();
 
-		if ( 0 === count($xmlDoc->body->outline) ) {
-			return false;
-		}
+        if (0 === count($xmlDoc->body->outline) ) {
+            return false;
+        }
 
-		foreach ( $xmlDoc->body->outline as $node ) {
-			if ( ! isset( $node->outline['xmlUrl'] ) || ! filter_var( $node->outline['xmlUrl'], FILTER_VALIDATE_URL ) ) {
-				return false;
-			}
-		}
+        foreach ( $xmlDoc->body->outline as $node ) {
+            if (! isset($node->outline['xmlUrl']) || ! filter_var($node->outline['xmlUrl'], FILTER_VALIDATE_URL) ) {
+                return false;
+            }
+        }
 
-		return true;
-	}
+        return true;
+    }
 
-	private function loadXmlExport() : \SimpleXmlElement {
-		return simplexml_load_file( $this->xmlExportPath );
-	}
+    private function loadXmlExport() : \SimpleXmlElement
+    {
+        return simplexml_load_file($this->xmlExportPath);
+    }
 }
