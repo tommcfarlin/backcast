@@ -25,4 +25,11 @@ class BackcastTest extends TestCase
 		$backcast = new Backcast($path);
 		$this->assertTrue($backcast->exportFileExists());
 	}
+
+	public function testIsValidFileType(): void
+	{
+		$path = __DIR__ . '/exports/overcast.opml';
+		$backcast = new Backcast($path);
+		$this->assertTrue($backcast->hasValidFileType());
+	}
 }
