@@ -4,4 +4,8 @@ namespace Backcast;
 
 require 'vendor/autoload.php';
 
-define('XML_EXPORT_URL', './overcast.opml');
+if ($argc !== 2) {
+	die("Please provide the path to the export file.");
+}
+
+new Backcast($argv[1]);
