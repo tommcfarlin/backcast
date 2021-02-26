@@ -52,8 +52,8 @@ class Backcast {
 			return false;
 		}
 
-		foreach ( $xmlDoc->body->outline as $outline ) {
-			if ( ! isset( $outline['type'] ) || 'rss' !== strtolower( $outline['type'] ) ) {
+		foreach ( $xmlDoc->body->outline as $node ) {
+			if ( ! isset( $node->outline['type'] ) || 'rss' !== strtolower( $node->outline['type'] ) ) {
 				return false;
 			}
 		}
@@ -68,8 +68,8 @@ class Backcast {
 			return false;
 		}
 
-		foreach ( $xmlDoc->body->outline as $outline ) {
-			if ( ! isset( $outline['xmlUrl'] ) || ! filter_var( $outline['xmlUrl'], FILTER_VALIDATE_URL) ) {
+		foreach ( $xmlDoc->body->outline as $node ) {
+			if ( ! isset( $node->outline['xmlUrl'] ) || ! filter_var( $node->outline['xmlUrl'], FILTER_VALIDATE_URL ) ) {
 				return false;
 			}
 		}

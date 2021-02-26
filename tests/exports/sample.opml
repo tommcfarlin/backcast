@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<opml version="1.0">
+	<head>
+		<title>Feeds</title>
+	</head>
+	<body>
+		<outline text="feeds">
+			<outline text="Office Ladies" xmlUrl="https://www.omnycontent.com/d/playlist/aaea4e69-af51-495e-afc9-a9760146922b/75a86d39-9e0e-4e9a-b948-aae301805fe6/514362cf-31b4-4ed2-af40-aae301805ffd/podcast.rss" type="rss" />
+			<outline type="rss" text="Conversations With Coleman" xmlUrl="https://anchor.fm/s/10ac7adc/podcast/rss" />
+			<outline xmlUrl="https://www.omnycontent.com/d/playlist/9b7dacdf-a925-4f95-84dc-ac46003451ff/b0152ba6-d585-461e-bfea-acb8002fd9bf/067d6b77-12db-4551-89ff-acb8002fd9c9/podcast.rss" type="rss" text="The Cold War: What We Saw" />
+			<outline xmlUrl="https://www.omnycontent.com/d/playlist/13ef36f9-b947-4bf3-ba70-a8260147fab8/13443b64-a0d3-4679-b3b2-aa3200cde8cc/fc48640f-7800-4ec5-93dc-aa3200cde8da/podcast.rss" type="rss" text="Andy Stanley Leadership Podcast" />
+		</outline>
+	</body>
+</opml>
