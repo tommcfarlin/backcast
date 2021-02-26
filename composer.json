@@ -1,0 +1,17 @@
+{
+	"name": "tommcfarlin/backcast",
+	"description": "An application used to backup podcast subscriptions via Overcast XML exports.",
+	"require-dev": {
+		"phpunit/phpunit": "^8"
+	},
+	"autoload": {
+		"psr-4": {
+			"Backcast\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+				"Backcast\\Tests\\": "tests"
+		}
+	}
+}
