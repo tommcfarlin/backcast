@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<opml version="1.0">
+	<head>
+		<title>Pocket Casts Feeds</title>
+	</head>
+	<body>
+		<outline text="feeds">
+			<outline xmlUrl="https://feeds.fireside.fm/bibleinayear/rss" type="rss" text="The Bible in a Year (with Fr. Mike Schmitz)" />
+			<outline text="Office Ladies" xmlUrl="https://www.omnycontent.com/d/playlist/aaea4e69-af51-495e-afc9-a9760146922b/75a86d39-9e0e-4e9a-b948-aae301805fe6/514362cf-31b4-4ed2-af40-aae301805ffd/podcast.rss" type="rss" />
+			<outline xmlUrl="https://feeds.megaphone.fm/WWO8086402096" type="rss" text="The Ben Shapiro Show" />
+			<outline text="The Michael Knowles Show" type="rss" xmlUrl="https://feeds.megaphone.fm/WWO6807941907" />
+			<outline type="rss" text="The Jordan B. Peterson Podcast" xmlUrl="https://feeds.megaphone.fm/ADV2256857693" />
+			<outline xmlUrl="https://feeds.megaphone.fm/WWO9953600871" type="rss" text="Enough" />
+			<outline type="rss" text="Reasonable Faith Podcast" xmlUrl="https://feeds.blubrry.com/feeds/reasonable_faith.xml" />
+			<outline xmlUrl="https://feeds.megaphone.fm/clarkhoward" type="rss" text="The Clark Howard Podcast" />
+			<outline type="rss" xmlUrl="https://feeds.megaphone.fm/WWO9088095423" text="The Matt Walsh Show" />
+			<outline xmlUrl="https://www.omnycontent.com/d/playlist/13ef36f9-b947-4bf3-ba70-a8260147fab8/ce825930-aeff-4eb7-95bd-a86500f9fe84/1ca1cf6e-44c2-451e-89b5-a86500fb24fb/podcast.rss" text="North Point Community Church" type="rss" />
+			<outline type="rss" text="The Cold War: What We Saw" xmlUrl="https://www.omnycontent.com/d/playlist/9b7dacdf-a925-4f95-84dc-ac46003451ff/b0152ba6-d585-461e-bfea-acb8002fd9bf/067d6b77-12db-4551-89ff-acb8002fd9c9/podcast.rss" />
+			<outline type="rss" text="Andy Stanley Leadership Podcast" xmlUrl="https://www.omnycontent.com/d/playlist/13ef36f9-b947-4bf3-ba70-a8260147fab8/13443b64-a0d3-4679-b3b2-aa3200cde8cc/fc48640f-7800-4ec5-93dc-aa3200cde8da/podcast.rss" />
+			<outline text="Raising Great Kids Podcast" type="rss" xmlUrl="https://www.omnycontent.com/d/playlist/13ef36f9-b947-4bf3-ba70-a8260147fab8/53cf4241-9f10-4476-b4b3-a8cf0120a844/b9d8323a-8e3a-4892-8381-a8cf01216ccb/podcast.rss" />
+			<outline type="rss" text="60 Songs That Explain the &apos;90s" xmlUrl="http://sjs.zapto.org:8083/0njxeKJKFtoJhCRF1ShmL4" />
+		</outline>
+	</body>
+</opml>
