@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+   <head>
+      <title>Overcast Podcast Subscriptions</title>
+   </head>
+   <body>
+      <outline type="rss" text="Office Ladies" title="Office Ladies" xmlUrl="https://www.omnycontent.com/d/playlist/aaea4e69-af51-495e-afc9-a9760146922b/75a86d39-9e0e-4e9a-b948-aae301805fe6/514362cf-31b4-4ed2-af40-aae301805ffd/podcast.rss" htmlUrl="https://www.earwolf.com/show/office-ladies/" />
+      <outline type="rss" text="The Bible in a Year (with Fr. Mike Schmitz)" title="The Bible in a Year (with Fr. Mike Schmitz)" xmlUrl="https://feeds.fireside.fm/bibleinayear/rss" htmlUrl="https://bibleinayear.fireside.fm/" />
+      <outline type="rss" text="The Ben Shapiro Show" title="The Ben Shapiro Show" xmlUrl="https://feeds.megaphone.fm/WWO8086402096" htmlUrl="https://www.dailywire.com/podcasts/show/ben-shapiro-show" />
+      <outline type="rss" text="Conversations With Coleman" title="Conversations With Coleman" xmlUrl="https://anchor.fm/s/10ac7adc/podcast/rss" htmlUrl="http://colemanhughes.org/" />
+      <outline type="rss" text="The Michael Knowles Show" title="The Michael Knowles Show" xmlUrl="https://feeds.megaphone.fm/WWO6807941907" htmlUrl="https://www.dailywire.com/podcasts/show/michael-knowles-show" />
+      <outline type="rss" text="The Jordan B. Peterson Podcast" title="The Jordan B. Peterson Podcast" xmlUrl="https://jordanbpetersonpodcast.libsyn.com/rss" htmlUrl="https://www.jordanbpeterson.com/" />
+      <outline type="rss" text="Enough" title="Enough" xmlUrl="https://feeds.megaphone.fm/WWO9953600871" htmlUrl="" />
+      <outline type="rss" text="The Clark Howard Podcast" title="The Clark Howard Podcast" xmlUrl="https://feeds.megaphone.fm/clarkhoward" htmlUrl="https://www.clark.com/podcasts" />
+      <outline type="rss" text="Reasonable Faith Podcast" title="Reasonable Faith Podcast" xmlUrl="https://feeds.blubrry.com/feeds/reasonable_faith.xml" htmlUrl="http://www.reasonablefaith.org/" />
+      <outline type="rss" text="The Matt Walsh Show" title="The Matt Walsh Show" xmlUrl="https://feeds.megaphone.fm/WWO9088095423" htmlUrl="https://www.dailywire.com/podcasts/show/matt-walsh-show" />
+      <outline type="rss" text="North Point Community Church" title="North Point Community Church" xmlUrl="https://www.omnycontent.com/d/playlist/13ef36f9-b947-4bf3-ba70-a8260147fab8/ce825930-aeff-4eb7-95bd-a86500f9fe84/1ca1cf6e-44c2-451e-89b5-a86500fb24fb/podcast.rss" htmlUrl="http://northpoint.org/messages" />
+      <outline type="rss" text="Andy Stanley Leadership Podcast" title="Andy Stanley Leadership Podcast" xmlUrl="https://www.omnycontent.com/d/playlist/13ef36f9-b947-4bf3-ba70-a8260147fab8/13443b64-a0d3-4679-b3b2-aa3200cde8cc/fc48640f-7800-4ec5-93dc-aa3200cde8da/podcast.rss" htmlUrl="http://andystanley.com/podcasts/" />
+      <outline type="rss" text="The Cold War: What We Saw" title="The Cold War: What We Saw" xmlUrl="https://www.omnycontent.com/d/playlist/9b7dacdf-a925-4f95-84dc-ac46003451ff/b0152ba6-d585-461e-bfea-acb8002fd9bf/067d6b77-12db-4551-89ff-acb8002fd9c9/podcast.rss" htmlUrl="https://art19.com/shows/apollo-11-what-we-saw" />
+      <outline type="rss" text="Gwinnett Church" title="Gwinnett Church" xmlUrl="https://www.omnycontent.com/d/playlist/13ef36f9-b947-4bf3-ba70-a8260147fab8/00d019e2-28e1-46a1-a585-a86501090286/b3489f79-29c0-4559-b548-a8650109496c/podcast.rss" htmlUrl="http://gwinnettchurch.org/messages" />
+   </body>
+</opml>
