@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"phpcs.executablePath": "vendor/bin/phpcs",
+		"phpcs.standard": "PSR2"
+	}
+}

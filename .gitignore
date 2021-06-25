@@ -1,5 +1,4 @@
 .DS_Store
 *.result.cache
-overcast.opml
 
 vendor/

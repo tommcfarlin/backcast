@@ -38,7 +38,7 @@ class Backcast
                 file_get_contents($this->xmlExportPath),
                 '<opml'
             )
-            );
+        );
     }
 
     public function isValidOpml() : bool
@@ -54,7 +54,6 @@ class Backcast
     public function hasProperOutlineTags() : bool
     {
         $xmlDoc = $this->loadXmlExport();
-
         /**
          * Some exports have outlines as children of outlines. If that's
          * the case then we'll set the $outline to the $outline child
