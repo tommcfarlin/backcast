@@ -1,0 +1,33 @@
+{
+	// General
+	"workbench.colorTheme": "Dracula Pro (Van Helsing)",
+
+	// Editor
+	"editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
+
+	// PHP
+    "php.validate.run": "onSave",
+
+	// Editor.
+	"editor.fontLigatures": true,
+	"editor.fontSize": 14,
+	"editor.renderWhitespace": "all",
+	"editor.lineNumbers": "on",
+	"editor.tabSize": 4,
+	"workbench.editor.showIcons": true,
+	"editor.insertSpaces": true,
+	"editor.detectIndentation": false,
+
+	// Files.
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+
+	// Settings Sync
+	"settingsSync.ignoredSettings": [
+		"-php.validate.executablePath"
+	],
+	"terminal.integrated.fontSize": 14,
+	"workbench.startupEditor": "welcomePage",
+	"window.zoomLevel": 1,
+	"php.validate.executablePath": "",
+}
